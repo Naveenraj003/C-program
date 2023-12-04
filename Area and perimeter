@@ -1,0 +1,13 @@
+//square
+#include<stdio.h>
+int main()
+{ 
+int a,A,P;
+printf("Enter length of a square: ");
+scanf("%d",&a);
+A=a*a;
+P=4*a;
+printf("Area of Square: %d",A);
+printf("Perimeter of a square: %d",P);
+return 0;
+}
