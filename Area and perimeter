@@ -11,3 +11,19 @@ printf("Area of Square: %d",A);
 printf("Perimeter of a square: %d",P);
 return 0;
 }
+
+//Rectangle
+#include<stdio.h>
+int main()
+{ 
+int l,w,A,P;
+printf("Enter length of a Rectangle: ");
+scanf("%d",&l);
+printf("Enter width of a Rectangle: ");
+scanf("%d",&w);
+A= l*w;
+P= 2*(l+ w);
+printf("Area of a Rectangle: %d",A);
+printf("Perimeter of a Rectangle: %d",P);
+return 0;
+}
