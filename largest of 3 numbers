@@ -4,17 +4,17 @@ int main()
  int A,B,C;
  printf("Enter the Three Numbers: ");
  scanf("%d%d%d",&A,&B,&C);
- if (a>b&&a>c)
+ if(A>B&&A>C)
    {
      printf("A is Largest of Three");
    }
- else if (b>a&&b>c)
+ else if(B>A&&B>C)
         {
          printf("B is Largest of Three");
         }
- else
-     {
-      printf("C is Largest of Three ");
-     }
-return 0;
+    else
+       {
+        printf("C is Largest of Three ");
+       }
+       return 0;
 }
