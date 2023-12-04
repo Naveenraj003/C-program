@@ -6,15 +6,15 @@ int main()
  scanf("%d%d%d",&A,&B,&C);
  if(A>B&&A>C)
    {
-     printf("A is Largest of Three");
+     printf("%d is Largest of Three",A);
    }
  else if(B>A&&B>C)
         {
-         printf("B is Largest of Three");
+         printf("%d is Largest of Three",B);
         }
     else
        {
-        printf("C is Largest of Three ");
+        printf("%d is Largest of Three ",C);
        }
        return 0;
 }
