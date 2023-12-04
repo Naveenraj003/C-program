@@ -8,8 +8,7 @@ int main()
      {
        if(i%2!=0)
          {
-           i=i++
-           printf("%d\n",i);
+           printf(" %d ",i);
          }
      }
 }
