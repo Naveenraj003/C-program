@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+ int N,l;
+ printf("Enter the Table Number: ");
+ scanf("%d",&N);
+ printf("upto: ");
+ scanf("%d",&l);
+ for (int i=1;i<=l;i++)
+   {
+     printf("%d x %d= %d\n",i,N,i*N);
+   }
+   return 0;
+}
