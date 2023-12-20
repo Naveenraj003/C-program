@@ -1,0 +1,20 @@
+// Call by Value - adding number to two number
+
+#include<stdio.h>  
+
+void add(int,int,int);
+void main()
+{
+    int a = 6,b = 12,c;
+    printf("\n Before adding a = %d and b = %d",a,b);           
+    printf("\n Adding the number : ");
+    scanf("%d",&c);
+    add(a,b,c);    
+    printf("\nCall by value adding a = %d+%d and b = %d+%d",a,c,b,c);
+}
+void add(int a,int b,int c)
+{
+    a=a+c;
+    b=b+c;
+    printf("\nAfter adding a = %d and b = %d",a,b); 
+}
