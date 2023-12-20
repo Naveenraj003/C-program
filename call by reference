@@ -1,0 +1,21 @@
+// Call by referance  - adding one number with two numbers
+
+#include<stdio.h>  
+
+void add(int ,int ,int);
+void main()
+{
+    int a = 6,b = 12,c;
+    printf("\n Before adding a = %d and b = %d",a,b); 
+    printf("\n Adding number : ");
+    scanf("%d",&c);
+    add(a,b,c);
+    printf("\nCall by value adding a = %d+%d,b = %d+%d and c= %d+%d",a,c,b,c,a,b); 
+}
+void add(int a,int b,int c)  
+{
+    a=a+c;
+    b=b+c;
+    c=a+b;
+    printf("\nAfter  adding a = %d,b = %d and c= %d",a,b,c);
+}
