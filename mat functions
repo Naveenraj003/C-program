@@ -9,3 +9,15 @@ scanf("%d",&n);
 float s= sqrt(n);
 printf("square root of %d: %.2f",n,s);
 }
+
+\\ Area of square
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int a,A;
+    printf("lenght of square : ");
+    scanf("%d",&a);
+    A=pow(a,2);
+    printf("Area of Square : %d",A);
+}
