@@ -1,0 +1,23 @@
+// Factorial Recursive funtion
+
+#include <stdio.h>
+int main() 
+{
+ int n;
+ printf("Enter number : ");
+ scanf("%d ",&n);
+ int fac = fact(n);
+ printf("Factorial is %d",fac);
+}
+
+int fact(int n)
+{
+    if(n<=2)
+    {
+        return n;
+    }
+    else
+    {
+        return n * fact(n-1);
+    }
+}
